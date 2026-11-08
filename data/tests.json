@@ -1,0 +1,30 @@
+{
+  "updated": "2026-11-08",
+  "tests": [
+    {
+      "ep": 1,
+      "claim": "Buy when RSI drops below 30",
+      "verdict": "queued",
+      "rules": {
+        "Entry": "RSI(14) crosses below 30 on a closed candle; buy at the next candle's open",
+        "Exit": "RSI(14) rises above 70, or the data ends",
+        "RSI method": "Wilder's smoothing (TradingView method)",
+        "Coins": "Top 30 USDT spot pairs by volume, no stablecoins or leveraged tokens",
+        "Timeframes": "1d (main), 4h (check)",
+        "Period": "Jan 2021 to Oct 2026",
+        "Fees": "0.1% per side",
+        "Position size": "$100 per trade, one position per coin, long only, no leverage",
+        "Benchmarks": "Buy and hold the same coins; random entries with the same trade count"
+      }
+    },
+    { "ep": 2,  "claim": "The golden cross (EMA 50 over EMA 200) means buy", "verdict": "queued" },
+    { "ep": 3,  "claim": "Three green candles in a row means buy", "verdict": "queued" },
+    { "ep": 4,  "claim": "Buy coins that are pumping", "verdict": "queued" },
+    { "ep": 5,  "claim": "Short the rebound after a dump", "verdict": "queued" },
+    { "ep": 6,  "claim": "A 1:3 risk-reward ratio always wins long-term", "verdict": "queued" },
+    { "ep": 7,  "claim": "Buy at the lower Bollinger Band", "verdict": "queued" },
+    { "ep": 8,  "claim": "The MACD crossover strategy works", "verdict": "queued" },
+    { "ep": 9,  "claim": "There is a best day of the week to buy Bitcoin", "verdict": "queued" },
+    { "ep": 10, "claim": "Only trade at the New York market open", "verdict": "queued" }
+  ]
+}
