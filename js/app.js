@@ -3,7 +3,7 @@
 
 const LINKS = {
   youtube: "https://www.youtube.com/@AskERAM",
-  github: "https://github.com/AskERAM/eram-tests"
+  github: "https://github.com/merchant-of-eram/eram-tests"
 };
 
 const LABEL = { gold: "Gold", fools: "Fool's Gold", ore: "Raw Ore", queued: "In the queue" };
