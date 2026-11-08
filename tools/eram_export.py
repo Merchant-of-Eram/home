@@ -33,7 +33,7 @@ Usage, at the end of your backtest script (after you have the numbers):
         by_year={"2021": 5.0, "2022": -21.3, "2023-26": 3.9},
         pnl_unit="%",                                     # "%" or "$", for per_coin and by_year
         video="https://youtu.be/...",
-        code="https://github.com/AskERAM/eram-tests/tree/main/ep01-rsi-below-30",
+        code="https://github.com/merchant-of-eram/eram-tests/tree/main/ep01-rsi-below-30",
         limitations=["Delisted coins are not included.", "Slippage is not modelled."],
     )
 
